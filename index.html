@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
+
+<body>
+
+  <!-- ✅ Slideshow background -->
+  <div class="slideshow-container">
+    <img src="images/img1.jpg" class="active" />
+    <img src="images/img2.jpg" />
+    <img src="images/img3.jpg" />
+    <img src="images/img4.jpg" />
+    <img src="images/img5.jpg" />
+    <img src="images/img6.jpg" />
+    <img src="images/img7.jpg" />
+    <img src="images/img8.jpg" />
+    <img src="images/img9.jpg" />
+  </div>
+  <!-- ✅ Header with logo -->
+  <header>
+  <div class="container header-flex">
+    <!-- Logo on the left -->
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo ZRK fruits and Veg" />
+    </div>
+    <nav class="desktop-nav">
+      <ul>
+        <li><a href="#aboutUs">About Us</a></li>
+        <li><a href="#ourProducts">Our Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  </div>
+  <div class="menu-overlay" id="menuOverlay">
+    <div class="close-btn" onclick="toggleMenu()">✖</div>
+    <ul>
+      <li><a href="#aboutUs">About Us</a></li>
+      <li><a href="#ourProducts">Our Products</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+  <!-- ✅ Hero section -->
+  <div class="hero">
+    <h1 class="scroll-reveal">Welcome to Zarrouk Fruits & Vegs</h1>
+    <p class="scroll-reveal" style="color: white;">Importing exporting and shipping fresh fruits and vegetables with quality you can trust</p>
+    <a href="fleet.html" class="discover-btn">Explore Our Fleet & Facilities</a>
+  </div>
+  <section class="features">
+    <div class="feature-box">
+      <i class="fas fa-star feature-icon animate__animated animate__bounce animate-infinite" style="color: orange;"></i>
+      <h3>Quality</h3>
+      <p>
+        Our fruits are carefully supervised to ensure top quality and meet all phytosanitary standards.<br>
+        We offer premium fruits at highly competitive prices
+      </p>
+    </div>
+
+    <div class="feature-box">
+      <i class="fas fa-network-wired feature-icon animate__animated animate__bounce animate-infinite" style="color: #f57c00;"></i>
+      <h3>International Networking</h3>
+      <p>
+       We operate a high-quality network of Business Partners internationally with our main office <br>
+       and warehouses located in Morocco enabling us to provide efficient global service and logistics solutions.
+      </p>
+    </div>
+
+    <div class="feature-box">
+      <i class="fas fa-chart-line feature-icon animate__animated animate__bounce animate-infinite" style="color: #f57c00;"></i>
+      <h3>Efficiency</h3>
+      <p>
+        Through our extensive Business Partners network<br>
+        we secure the finest fruits from multiple countries spanning diverse seas.
+      </p>
+    </div>
+  </section>
+<section class="aboutUs" id="aboutUs">
+  <div class="aboutUsGrid scroll-reveal">
+    <div class="text1 scroll-reveal">
+      <h1 class="aboutName">About Us?</h1>
+      <h1 class="aboutTitle"></h1>
+      <p class="aboutUsPar">
+        Zarrouk Fruit & Veg is a Moroccan company specializing in the import and export of fresh fruits and vegetables.
+        We aim to be a key link between producers and buyers in global markets.
+        Thanks to our wide network of local and international partners, we ensure the supply of fresh, high-quality
+        agricultural products to markets in Europe, the Middle East, Asia, and North America.
+      </p>
+    </div>
+    <div class="image1 scroll-reveal">
+      <img src="images/aboutus.jpg" alt="About Us image" class="aboutusImg" />
+    </div>
+
+<div class="image2 scroll-reveal">
+      <img src="images/aboutus2.jpg" alt="About Us Extra" class="aboutusImg" />
+    </div>
+
+<div class="text2 scroll-reveal">
+      <h1 class="aboutName">Fresh Vegetables and Fruits Daily</h1>
+      <p class="aboutUsPar">
+      At Zarrouk Fruits and Veg, we are committed to delivering fresh, high-quality fruits and vegetables daily.
+      Our produce is carefully tested for pesticide residues to ensure safe,
+      reliable, and trusted freshness for our valued customers
+    </p>
+  </div>
+ 
+  </div>
+</section>
+
+<section class="wave-divider" style="background-color: #1d3b36;">
+  <svg viewBox="0 0 500 150" preserveAspectRatio="none">
+    <path d="M0.00,49.98 C150.00,150.00 350.00,-50.00 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
+          style="stroke: none; fill: #a5d6a7;"></path>
+  </svg>
+</section>
+
+
+<section class="works" id="ourProducts">
+   <div class="worksContainer">
+    <div class="projectTitle">
+      <h1 class="aboutName">Our Products</h1>
+      <h1 class="aboutTitle">Our fresh Fruits and Vegetables</h1>
+    </div>
+<ul class="product-grid">
+  <li>
+    <a href=""><img src="images/apple.jpg" alt="apple photo" /></a>
+  </li>
+  <li>
+    <a href=""><img src="images/blueberry.jpg" alt="blueberry photo" /></a>
+  </li>
+  <li>
+    <a href=""><img src="images/raspberries.jpg" alt="raspberries photo" /></a>
+  </li>
+  <li>
+    <a href=""><img src="images/avocados.jpg" alt="avocados photo" /></a>
+  </li>
+  <li>
+    <a href=""><img src="images/strawberries.jpg" alt="strawberries photo" /></a>
+  </li>
+  <li>
+    <a href=""><img src="images/peppers.jpg" alt="peppers photo" /></a>
+  </li>
+  </ul>
+  <div class="more-button-container">
+  <a href="https://wa.me/212665281923?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20the%20products."
+     class="more-button"
+     target="_blank">
+    Learn More
+  </a>
+   </div>
+ </div>
+</section>
+<section class="contact" id="contact">
+  <div class="contact-container">
+    <h2 class="contact-title">Contact Us</h2>
+  <p class="contact-subtext">If you have any questions or requests feel free to contact us.</p>
+    <div class="contact-details">
+   <p>
+    <i class="fab fa-whatsapp"></i>
+    <a href="https://wa.me/212665281923" target="_blank" class="contact-link">+212 6 65 28 19 23</a>
+  </p>
+  <p>
+    <i class="fas fa-phone"></i>
+    <a href="tel:+212782314710" class="contact-link">+212 7 82 31 47 10</a>
+  </p>
+  <p>
+    <i class="fas fa-envelope"></i>
+    <a href="mailto:zarroukfruit@gmail.com" class="contact-link">zarroukfruit@gmail.com</a>
+  </p>
+  <p>
+    <i class="fas fa-map-marker-alt"></i>
+    <span class="contact-link">Belle Vue Mndar Jamil Tanger, Morocco</span>
+  </p>
+</div>
+<form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+© Zarrouk Fruits & Veg Created in 2023.
+</footer>
+
+ <!-- ✅ JavaScript to rotate images -->
+  <script>
+    const images = document.querySelectorAll('.slideshow-container img');
+    let current = 0;
+    function showNextImage() {
+    images[current].classList.remove('active');
+    current = (current + 1) % images.length;
+    images[current].classList.add('active');
+    }
+
+setInterval(showNextImage, 3000);
+  </script>
+  <script>
+  const revealElements = document.querySelectorAll('.scroll-reveal');
+
+  function revealOnScroll() {
+    const triggerBottom = window.innerHeight * 0.85;
+
+    revealElements.forEach(el => {
+      const boxTop = el.getBoundingClientRect().top;
+      if (boxTop < triggerBottom) {
+        el.classList.add('active');
+      }
+    });
+  }
+
+  window.addEventListener('scroll', revealOnScroll);
+  window.addEventListener('load', revealOnScroll);
+</script>
+<script>
+  function toggleMenu() {
+    document.getElementById("menuOverlay").classList.toggle("active");
+  }
+</script>
+<script>
+  function toggleMenu() {
+    document.getElementById("menuOverlay").classList.toggle("active");
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('#menuOverlay a');
+    links.forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById("menuOverlay").classList.remove("active");
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
